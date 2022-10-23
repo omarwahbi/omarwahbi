@@ -1,0 +1,191 @@
+body{
+    color: white;
+}
+.movie-section  {
+    background-image:
+    linear-gradient(to bottom, rgba(0, 1, 5, 0.6), rgb(29, 29, 29)),
+    url('https://yts.mx/assets/images/movies/apocalyptic_2014/background.jpg');
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+    
+}
+.movie-view {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.left-panel{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.mid-panel{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.right-panel{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: right;
+}
+.icons{
+    height: 25px;
+    width: 25px;
+}
+.icons-container{
+    display: flex; 
+    flex-direction: row;
+    margin-bottom:10px ;
+}
+.icons-container span{
+    padding-left: 50px;
+}
+.upper-movies-photos{
+    display: flex;
+    flex-direction: row;
+}
+.lower-movies-photos{
+    display: flex;
+    flex-direction: row;
+}
+.ratings-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.similar-movie{
+    height: 100%;
+    width: 92px;
+    border: white solid 4px;
+}
+.similar-movie:hover{
+    height: 100%;
+    width: 92px;
+    border: green solid 4px;
+}
+
+
+.upper-movies-photos a{
+    
+    margin: 10px;
+    height: 138px;
+}
+.lower-movies-photos a{
+    
+    margin: 10px;
+    height: 138px;
+}
+.left-panel img {
+    height: 390px;
+    width: 266px;
+    border: solid #fff 4px;
+}
+.left-panel button{
+    width: 266px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: #6ac045;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.right-panel p{
+    padding-left: 8px;
+    font-weight: 700;
+}
+.movie-title{
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 18px;
+}
+.details{
+    font-size: 20px;
+    font-weight: 700;
+}
+.year-category{
+    padding: 0px 0px 25px 0px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.lower-container {
+    background-color: #1d1d1d;
+}
+.movie-screenshots-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.screenshot{
+    height: 205px;
+    width: 386px;
+    margin-right: 5px;
+}
+.modal{
+    display: none;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    /* padding-top: 30px;
+    padding-left: 175px; */
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+.img-container{
+    display: block;
+    height: 624px;
+    width: 1171px;
+}
+.close-modal{
+    float: right;
+    padding-right: 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+.modal-img{
+    height: 624px;
+    width: 1171px;
+    display: none;
+}
+.modal-movie-trailer{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.button-container{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: auto;
+    
+}
+.button-container:hover{
+    background-color: rgba(100,100,100,0.5);
+   
+}
+
+.left-button, .right-button{
+    font-size: 50px;
+    background-color: transparent;
+    font-weight: 700;
+    border: none;
+    color: white;
+    padding: 15px;
+}
+.left-button:focus, .right-button:focus{
+    outline: none;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "yts",
+  "version": "1.0.0",
+  "description": "yts replica",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "keywords": [],
+  "author": "Omar Wahbi",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

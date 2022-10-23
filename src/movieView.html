@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Name</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./movieViewStyle.css" />
+  </head>
+  <body>
+    <header>
+      <div class="top-bar-left">
+        <a class="logo" href="index.html">
+          <img src="./assets/logo-YTS.svg" />
+        </a>
+        <span class="header-text">HD movies at the smallest file size.</span>
+      </div>
+      <div class="top-bar-right">
+        <input
+          id="search"
+          type="text"
+          autocomplete="off"
+          placeholder="Quick search"
+        />
+        <div class="drop-down-list">
+          <ul class="search-list"></ul>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#"> Home </a>
+            </li>
+            <li>
+              <a href="#"> 4K </a>
+            </li>
+            <li>
+              <a href="#"> Trending </a>
+            </li>
+            <li>
+              <a href="#"> Browse Movies </a>
+            </li>
+            <li>
+              <a href="#">
+                <strong>Log In</strong>
+              </a>
+            </li>
+            <hr />
+            <li>
+              <a href="#">
+                <strong>Register</strong>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="movie-section">
+      <div class="movie-view container">
+        <div class="left-panel">
+          <img src="./assets/joker.jpeg" />
+          <a href="#">
+            <button>Download</button>
+          </a>
+        </div>
+        <div class="mid-panel">
+          <p class="movie-title">Joker</p>
+          <div class="year-category">
+            <span>2018</span>
+            <p>Action / Crime / Drama / Thriller</p>
+          </div>
+          <p>
+            Available in:
+            <a href="#">
+              <button>720p.bluray</button>
+            </a>
+            <a href="#">
+              <button>1080p.bluray</button>
+            </a>
+          </p>
+          <div class="ratings-container">
+            <div class="icons-container">
+              <img class="icons" src="./assets/15721583221557740359-512.png" />
+              <span class="details">65</span>
+            </div>
+            <div class="icons-container">
+              <img class="icons" src="./assets/rt-certified-fresh.webp" />
+              <span class="details">53% - critics</span>
+            </div>
+            <div class="icons-container">
+              <img class="icons" src="./assets/rt-upright.webp" />
+              <span class="details">77% - audience</span>
+            </div>
+            <div class="icons-container">
+              <img class="icons" src="./assets/logo-imdb.svg" />
+              <span class="details">6.5 rating</span>
+            </div>
+          </div>
+        </div>
+        <div class="right-panel">
+          <p>Similar movies</p>
+          <div class="upper-movies-photos">
+            <a href="#">
+              <img class="similar-movie" src="./assets/moonlight.jpeg" />
+            </a>
+            <a href="#">
+              <img class="similar-movie" src="./assets/moonlight.jpeg" />
+            </a>
+          </div>
+          <div class="lower-movies-photos">
+            <a href="#">
+              <img class="similar-movie" src="./assets/moonlight.jpeg" />
+            </a>
+            <a href="#">
+              <img class="similar-movie" src="./assets/moonlight.jpeg" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="lower-container">
+      <div class="trailer-story-container">
+        <div class="movie-screenshots-wrapper">
+          <img
+            class="screenshot"
+            id = "trailer-screenshot"
+            src="./assets/large-screenshot1.jpg"
+          />
+          <img class="screenshot" src="./assets/large-screenshot2.jpg" />
+          <img class="screenshot" src="./assets/large-screenshot3.jpg" />
+        </div>
+        <div class="modal">
+          <div class="button-container">
+            <button class="left-button">&larr;</button>
+          </div>
+          <div class="img-container">
+            <span class="close-modal">X</span>
+            <div class="modal-movie-trailer"></div>
+            <img class="modal-img" />
+          </div>
+          <div class="button-container">
+            <button class="right-button">&rarr;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
